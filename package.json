@@ -2,7 +2,7 @@
   "name": "sonsofcrypo",
   "version": "2.0.0",
   "private": true,
-  "homepage": " https://web3d3v.github.io/tmp/",
+  "homepage": "https://web3d3v.github.io/tmp/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

@@ -51,19 +51,11 @@ function coverflowWidth(width) {
 const Mission = (props) => {
     const { progress } = props;
     const imagesArr = [
-        'images/nfts/1.jpeg',
-        'images/nfts/2.jpeg',
-        'images/nfts/3.jpeg',
-        'images/nfts/4.jpeg',
-        'images/nfts/5.jpeg',
-        'images/nfts/6.jpeg',
-        'images/nfts/7.jpeg',
         'images/nfts/8.jpeg',
-        'images/nfts/9.jpeg',
-        'images/nfts/10.jpeg',
         'images/nfts/11.jpeg',
-        'images/nfts/12.jpeg',
-        'images/nfts/13.jpeg',
+        'images/nfts/6.jpeg',
+        'images/nfts/4.jpeg',
+        'images/nfts/1.jpeg',
     ];
     const { height, width } = useWindowDimensions();
     return (
