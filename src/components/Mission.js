@@ -57,7 +57,7 @@ const Mission = (props) => {
         'images/nfts/4.jpeg',
         'images/nfts/1.jpeg',
     ];
-    const { height, width } = useWindowDimensions();
+    const { width, height } = useWindowDimensions();
     return (
         <div id='mission' className='margin-auto margin-h-2 margin-h-2-padded margin-v-1 mission'>
             <div className='mission-h1-wrapper'>
@@ -83,8 +83,8 @@ const Mission = (props) => {
                         or <a href="https://discord.gg/DW8kUu6Q6E" target="_blank">Discord</a>.                    </p>
                 </div>
                 <div className='mission-content-container'>
-                    <img src='images/tokenomics.svg'/>
-                        <div className='mission-cover-container'>
+                    <object type="image/svg+xml" data="images/tokenomics.svg" className='svg'>tokenomics</object>
+                    <div className='mission-cover-container'>
                             <CoverFlow
                                 imagesArr={imagesArr}
                                 width={coverflowWidth(width)}

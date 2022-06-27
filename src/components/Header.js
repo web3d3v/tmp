@@ -58,7 +58,7 @@ const Header = (props) => {
             </div>
             <div className='bottom'>
                 <div className='logo-container'>
-                    <div className='logo'></div>
+                    <object type="image/svg+xml" data="images/header/logo.svg" className='logo svg'>web3wallet-logo</object>
                 </div>
                 <div className='tagline-container'>
                     <div className='tagline-wrapper'>

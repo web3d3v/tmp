@@ -8,10 +8,10 @@ const Wallet = (props) => {
     return (
         <div id='wallet' className='margin-auto margin-h-2 margin-v-1 wallet'>
             <div className='wallet-tvs'>
-                <img src='images/wallet/tv_dexes.svg'/>
-                <img src='images/wallet/tv_native_integrations.svg'/>
-                <img src='images/wallet/tv_l1_l2.svg'/>
-                <img src='images/wallet/tv_selfcustodial.svg'/>
+                <object type="image/svg+xml" data="images/wallet/tv_dexes.svg" className='svg'>tv_dexes</object>
+                <object type="image/svg+xml" data="images/wallet/tv_native_integrations.svg" className='svg'>tv_native_integrations</object>
+                <object type="image/svg+xml" data="images/wallet/tv_l1_l2.svg" className='svg'>tv_l1_l2</object>
+                <object type="image/svg+xml" data="images/wallet/tv_selfcustodial.svg" className='svg'>tv_selfcustodial</object>
             </div>
             <div className='wallet-text-container'>
                 <div className='wallet-left-text'>
@@ -54,10 +54,10 @@ const Wallet = (props) => {
                 </div>
             </div>
             <div className='wallet-tvs'>
-                <img src='images/wallet/tv_dexes.svg'/>
-                <img src='images/wallet/tv_native_integrations.svg'/>
-                <img src='images/wallet/tv_nfts.svg'/>
-                <img src='images/wallet/tv_derivatives.svg'/>
+                <object type="image/svg+xml" data="images/wallet/tv_dexes.svg" className='svg'>tv_dexes2</object>
+                <object type="image/svg+xml" data="images/wallet/tv_native_integrations.svg" className='svg'>tv_native_integrations2</object>
+                <object type="image/svg+xml" data="images/wallet/tv_nfts.svg" className='svg'>tv_nfts</object>
+                <object type="image/svg+xml" data="images/wallet/tv_derivatives.svg" className='svg'>tv_derivatives</object>
             </div>
         </div>
     )

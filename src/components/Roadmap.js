@@ -8,7 +8,9 @@ const Roadmap = (props) => {
 
             <div className='line-horizontal-container'>
                 <div className='line-horizontal-left  roadmap-line-top'></div>
-                <div id='roadmap-logo'><img src='images/by_degens_for_degens.svg'/></div>
+                <div id='roadmap-logo'>
+                    <object type="image/svg+xml" data="images/by_degens_for_degens.svg" className='svg'>by-degens-for-degens</object>
+                </div>
                 <div className='line-horizontal-right roadmap-line-top'></div>
             </div>
 
@@ -45,7 +47,7 @@ const Roadmap = (props) => {
                                     </ul>
                                 </div>
                                 <div className="roadmap-card-image">
-                                    <img src='images/pepe.svg'/>
+                                    <object type="image/svg+xml" data="images/pepe.svg" className='svg'>pepe</object>
                                 </div>
                             </div>
                             <div className="roadmap-card">
@@ -77,7 +79,7 @@ const Roadmap = (props) => {
                                 </div>
                                 <div className="roadmap-card-image">
                                     <div></div>
-                                    <img src='images/wojak_chart_up.svg'/>
+                                    <object type="image/svg+xml" data="images/wojak_chart_up.svg" className='svg'>pepe</object>
                                 </div>
                             </div>
                         </div>

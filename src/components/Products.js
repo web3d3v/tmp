@@ -9,7 +9,7 @@ const Products = (props) => {
                 <div className='products-card'>
                     <a href="#sdk">
                         <div className="products-card-image">
-                            <img src='images/pepe_research.svg' />
+                            <object type="image/svg+xml" data="images/pepe_research.svg" className='svg'>pepe_research</object>
                         </div>
                         <h1>web3 SDK</h1>
                         <ul>
@@ -25,7 +25,7 @@ const Products = (props) => {
                 <div className='products-card'>
                     <a href="#wallet">
                         <div className="prodicts-card-image">
-                            <img src='images/trader.svg' />
+                            <object type="image/svg+xml" data="images/trader.svg" className='svg'>trader</object>
                         </div>
                         <h1>web3 Wallet</h1>
                         <ul>
@@ -45,7 +45,7 @@ const Products = (props) => {
                 <div className='products-card'>
                     <a href="#apps">
                         <div className="prodicts-card-image">
-                            <img src='images/shadowysupercoder.svg' />
+                            <object type="image/svg+xml" data="images/shadowysupercoder.svg" className='svg'>shadowysupercoder</object>
                         </div>
                         <h1>web3 Apps</h1>
                         <ul>
@@ -64,7 +64,7 @@ const Products = (props) => {
                     <div className='products-card'>
                         <a href="#sdk">
                             <div className="products-card-image">
-                                <img src='images/pepe_research.svg' />
+                                <object type="image/svg+xml" data="images/pepe_research.svg" className='svg'>pepe_research</object>
                             </div>
                             <h1>web3 SDK</h1>
                             <ul>
@@ -80,7 +80,7 @@ const Products = (props) => {
                     <div className='products-card'>
                         <a href="#sdk">
                             <div className="prodicts-card-image">
-                                <img src='images/shadowysupercoder.svg' />
+                                <object type="image/svg+xml" data="images/shadowysupercoder.svg" className='svg'>shadowysupercoder</object>
                             </div>
                             <h1>web3 Apps</h1>
                             <ul>
@@ -95,7 +95,7 @@ const Products = (props) => {
                 <div className='products-card'>
                     <a href="#wallet">
                         <div className="prodicts-card-image">
-                            <img src='images/trader.svg' />
+                            <object type="image/svg+xml" data="images/trader.svg" className='svg'>pepe_research</object>
                         </div>
                         <h1>web3 Wallet</h1>
                         <ul>

@@ -188,18 +188,13 @@ svg {
 
 .logo {
     width: 335px;   /* 1919px;*/
-    /*height: 169px;*/
-    height: 213px;
+    height: 213px; /*height: 169px;*/
     display: block;
     position: absolute;
     margin: 0 auto;
     top: -115%;
     right: 0;
     left: 0;
-    background-image: url("/public/images/header/logo.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    Background-clip: unset;
     z-index: 200;
     overflow: visible !important;
 }

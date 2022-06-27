@@ -58,7 +58,7 @@
     overflow: visible;
 }
 
-#roadmap-logo img {
+#roadmap-logo .svg {
     position: absolute;
     width: 100%;
     left: 0;
@@ -165,7 +165,7 @@
     justify-content: space-around;
 }
 
-.roadmap-card-image img {
+.roadmap-card-image .svg {
     margin: 0 auto;
     max-width: 180px;
 }
