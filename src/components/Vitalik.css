@@ -4,16 +4,16 @@
     position: relative;
 }
 
-.vitalik-container img {
+.vitalik-container .svg {
     margin: 0 auto;
     left: 0; right: 0;
 }
 
-.vitalik-container img:first-child {
+.vitalik-container .svg:first-child {
     animation: animateVitalik 9s linear infinite;
 }
 
-.vitalik-container img:last-child {
+.vitalik-container .svg:last-child {
     position: absolute;
     animation: animateItalik 9s linear infinite;
 }

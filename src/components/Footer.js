@@ -7,7 +7,7 @@ const Footer = (props) => {
         <div className='margin-auto footer-wrapper' id='social'>
             <div className='margin-auto margin-h-3 footer-spacer'>
                 <div className='footer-content-wrapper'>
-                    <object type="image/svg+xml" data="images/header/logo.svg">svg-image</object>
+                    <object type="image/svg+xml" data="images/header/logo.svg" id='footer-logo-img'>web3wallet-logo-image</object>
                     
                     <div className='tagline-container'>
                         <div className='tagline-wrapper'>

@@ -5,8 +5,8 @@ const Vitalik = (props) => {
     const { progress } = props;
     return (
         <div className='vitalik-container'>
-            <img src='images/vitalik.svg'/>
-            <img src='images/italik.svg'/>
+            <object type="image/svg+xml" data="images/vitalik.svg" className='svg'>vitalik</object>
+            <object type="image/svg+xml" data="images/italik.svg" className='svg'>italik</object>
         </div>
     )
 }
