@@ -16,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "NODE_DEBUG=gh-pages gh-pages -d build -u \"web3d3v <shadowyweb3supercoder@protonmail.com>\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
