@@ -51,6 +51,11 @@
     margin: 0 auto;
 }
 
+.svg {
+    width: 100%;
+    overflow: hidden;
+}
+
 .team-member ul {
     padding-left: 20px;
 }

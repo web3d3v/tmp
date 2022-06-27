@@ -54,10 +54,10 @@ const Wallet = (props) => {
                 </div>
             </div>
             <div className='wallet-tvs'>
-                <object type="image/svg+xml" data="images/wallet/tv_dexes.svg" className='svg'>tv_dexes2</object>
-                <object type="image/svg+xml" data="images/wallet/tv_native_integrations.svg" className='svg'>tv_native_integrations2</object>
                 <object type="image/svg+xml" data="images/wallet/tv_nfts.svg" className='svg'>tv_nfts</object>
                 <object type="image/svg+xml" data="images/wallet/tv_derivatives.svg" className='svg'>tv_derivatives</object>
+                <object type="image/svg+xml" data="images/wallet/tv_staking.svg" className='svg'>tv_dexes2</object>
+                <object type="image/svg+xml" data="images/wallet/tv_bridges.svg" className='svg'>tv_bridges</object>
             </div>
         </div>
     )
