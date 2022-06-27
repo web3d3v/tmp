@@ -11,6 +11,9 @@ import Footer from "../components/Footer";
 import Team from "../components/Team";
 
 function App() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <div className="tc">
             <ErrorBoundary>
